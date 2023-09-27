@@ -22,7 +22,6 @@ class BirthdayMixin:
 class BirthdayCreateView(BirthdayMixin, CreateView):
     model = Birthday
     form_class = BirthdayForm
-    
 
 
 class BirthdayUpdateView(BirthdayMixin, UpdateView):
